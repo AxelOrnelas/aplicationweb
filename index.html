@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div id="header">
+            <h1>Cuestionario </h1>
+            <h3>El siguiente formulario es con la finalidad de recopilar la información de los estudiantes a nivel universitario.</h3>
+        </div>
+        <div id="form">
+            <p>Nombre</p>
+            <input type="text" placeholder="Indica tu Nombre">
+            <br>
+            <p>¿En qué universidad te encuentras actualmente?</p>
+            <input type="text" placeholder="Nombre de la universidad">
+            <br><br>
+            <label for="nivel">¿En qué nivel académico te encuentras?</label> <br><br>       
+            <input type="text" name="nivel" id="nivel">
+            <br><br>
+            <label for="campo-estudio">¿Cuál es tu campo de estudio principal?</label>
+            <br><input type="text"><br><br>
+            <label for="satisfaccion-general">1.-¿Cómo calificarías tu satisfacción general con tu universidad?</label>
+            <br><select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#">2.-¿Qué aspectos específicos te gustan más de tu institución?</label>
+            <br><input type="text"><br><br>
+            <label for="#">3.-¿Qué aspectos te gustaría ver mejorados?</label>
+            <br><input type="text"><br><br>
+            <label for="#">4.-¿Cómo evalúas la comunicación entre la administración de la universidad y los estudiantes?</label>
+            <br><br>
+            <select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#">5.-¿Crees que la información relevante sobre eventos, cambios en el plan de estudios, etc., se comunica eficazmente?</label>
+            <br><br>
+            <select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#">6.-¿Cómo calificarías la calidad de los recursos académicos disponibles? (bibliotecas, laboratorios, tecnología, etc.)</label>
+            <br><br>
+            <select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#">7.-¿Hay alguna necesidad específica en términos de recursos académicos que creas que la universidad debería abordar?</label>
+            <br><br>
+            <select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#">8.-¿Te sientes respaldado por servicios de apoyo estudiantil, como asesoramiento académico y servicios de bienestar estudiantil?</label>
+            <br><br>
+            <select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#" id="pregunta">9.-¿Qué servicios adicionales te gustaría ver implementados para apoyar a los estudiantes?</label>
+            <br><br>
+            <input type="text" name="servicios" id="servicios"><br><br>
+            <label for="#">10.-¿Cómo evalúas la infraestructura física de la universidad? (aulas, instalaciones deportivas, áreas de recreación, etc.)</label>
+            <br><br>
+            <select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#">11.-¿Crees que el ambiente en tu universidad es propicio para el aprendizaje y el desarrollo personal?</label>
+            <br><br>
+            <select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#">12.-¿Sientes que la universidad proporciona suficientes oportunidades para el desarrollo de habilidades profesionales y la preparación para la carrera?</label>
+            <br><br>
+            <select id="calificacion" name="calificacion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="#">13.-¿Qué mejoras sugerirías en términos de conexión con empleadores, pasantías, ferias de empleo, etc.?</label>
+            <br><br>
+            <input type="text" name="sugerencias" id="sugerencias"><br><br>
+            <label for="#">14.-¿Hay algún otro comentario o sugerencia que te gustaría compartir sobre tu experiencia como estudiante?</label>
+            <br><br>
+            <input type="text" name="comentario" id="comentario">
+            <br><br>
+            <button type="submit" id="submit">Enviar respuestas</button>
+            <a href="complete.html">COMPLETO TEST</a>
+        </div>
+    </form>
+</body>
+</html>
